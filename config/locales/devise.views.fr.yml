@@ -2,6 +2,8 @@ fr:
   activerecord:
     attributes:
       user:
+        first_name: Prénom
+        name: Nom
         current_password: Mot de passe actuel
         email: Adresse Mail
         password: Mot de passe

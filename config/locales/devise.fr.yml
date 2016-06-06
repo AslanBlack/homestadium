@@ -65,11 +65,21 @@ fr:
       models:
         user:
           attributes:
+            first_name:
+              blank: "obligatoire"
+              too_short: "trop court"
+              too_long: "trop long"
+            name: 
+              blank: "obligatoire"
+              too_short: "trop court"
+              too_long: "trop long"
             email:
-              blank: "ne peut pas être vide"
+              blank: "obligatoire"
               taken: "déjà associé à un autre compte"
               invalid: "n'est pas valide"
             password:
-              blank: "ne peut pas être vide"
+              blank: "obligatoire"
               too_short: "est trop court, il doit contenir au moins 6 caractères"
-            password_confirmation: "ne peut être vide"  
+            password_confirmation: 
+              blank: "obligatoire"
+              too_short: "trop court, il doit contenir au moins 6 caractères" 
