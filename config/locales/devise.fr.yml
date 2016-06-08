@@ -82,4 +82,8 @@ fr:
               too_short: "est trop court, il doit contenir au moins 6 caractères"
             password_confirmation: 
               blank: "obligatoire"
-              too_short: "trop court, il doit contenir au moins 6 caractères" 
+              confirmation: "ne correspond pas au mot de passe"
+              too_short: "trop court, il doit contenir au moins 6 caractères"
+            current_password:
+              blank: "obligatoire"
+              invalid: "n'est pas valide"

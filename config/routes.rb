@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
  
   devise_for :users, :controllers => { :registrations => "user/registrations" }
-  resources :users, only:[:show]
+  resources :users, only:[:show, :destroy]
   root 'welcome#index'
 
   # Example of regular route:

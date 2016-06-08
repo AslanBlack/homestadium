@@ -19,7 +19,7 @@ fr:
       confirmation_instructions:
         action: Confirmer mon adresse mail
         greeting: Bienvenue %{recipient}!
-        instruction: 'Vous pouvez confirmer votre adresse mail grâce au lien ci-dessous:'
+        instruction: 'Vous pouvez confirmer votre adresse mail en cliquant sur le lien ci-dessous:'
       reset_password_instructions:
         action: Changer mon mot de passe
         greeting: Bonjour %{recipient}!
